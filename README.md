@@ -26,8 +26,10 @@ When the login succeed, it will console a "I am ready!"
 ### heroku
 
 Heroku's Procfile sets a worker for this job.
-<p/>Follow [Heroku git deploy](https://devcenter.heroku.com/articles/git) guide.
-<p/>Then turn web dyno off and start the worker using
+
+Follow [Heroku git deploy](https://devcenter.heroku.com/articles/git) guide.
+
+Then turn web dyno off and start the worker using
 
 `heroku ps:scale web=0`
 
